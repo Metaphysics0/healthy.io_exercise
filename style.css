@@ -1,0 +1,23 @@
+/* Add your CSS here */
+
+div.container {
+  background: red;
+  width: 88vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+body {
+  margin: 0;
+  background-image: url('./assets/background.svg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
